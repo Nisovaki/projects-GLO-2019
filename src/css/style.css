@@ -28,7 +28,7 @@ img {
   border-radius: 10px;
   background-color: #ffd200;
   border: none;
-  padding: 18px 30px;
+  padding: 19px 30px 17px 30px;
   font-weight: bold;
   outline: none;
   cursor: pointer;
@@ -76,6 +76,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: 13px;
 }
 
 .navbar__button {
@@ -95,13 +96,6 @@ img {
 @media (max-width: 768px) {
   .navbar__contacts {
     display: none;
-  }
-  .navbar__button {
-    font-size: 12px;
-    padding: 15px 26px;
-  }
-  .navbar__logo {
-    width: 90px;
   }
 }
 /*# sourceMappingURL=style.css.map */
