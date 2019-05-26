@@ -29,6 +29,17 @@ img {
   background-color: #ffd200;
   border: none;
   padding: 18px 30px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #EFA94A;
+}
+
+.button:active {
+  background-color: #ED760E;
 }
 
 .navbar {
@@ -78,5 +89,19 @@ img {
   font-weight: 400;
   text-decoration: none;
   margin-top: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .navbar__contacts {
+    display: none;
+  }
+  .navbar__button {
+    font-size: 12px;
+    padding: 15px 26px;
+  }
+  .navbar__logo {
+    width: 90px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
