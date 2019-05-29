@@ -27,21 +27,21 @@ img {
 @media (max-width: 425px) {
   .container {
     width: 420px;
-    width: 70%;
+    width: 90%;
   }
 }
 
 @media (max-width: 375px) {
   .container {
     width: 340px;
-    width: 60%;
+    width: 95%;
   }
 }
 
 @media (max-width: 320px) {
   .container {
     width: 300px;
-    width: 60%;
+    width: 95%;
   }
 }
 
@@ -136,6 +136,16 @@ img {
   }
   .navbar__contacts__button {
     padding: 15px 26px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar__logo {
+    width: 45%;
+  }
+  .navbar__button {
+    padding: 15px 25px;
     font-size: 10px;
   }
 }
