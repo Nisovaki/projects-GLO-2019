@@ -170,7 +170,7 @@ img {
 .hero-text__title {
   font-size: 40px;
   font-weight: 600;
-  line-height: 54px;
+  line-height: 55px;
   margin-bottom: 40px;
 }
 
@@ -178,7 +178,7 @@ img {
   display: inline-block;
   font-size: 19px;
   font-weight: 600;
-  margin-bottom: 71px;
+  margin-bottom: 70px;
 }
 
 .hero-list {
@@ -193,12 +193,12 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 27px;
+  margin-bottom: 23px;
 }
 
 .hero-list__img {
-  width: 35px;
-  height: 35px;
+  width: 36px;
+  height: 36px;
   border: 2px solid #ffd200;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,8 +214,9 @@ img {
 }
 
 .hero-list__text {
-  max-width: 300px;
-  line-height: 22px;
+  max-width: 250px;
+  line-height: 24px;
+  font-size: 14px;
 }
 
 .hero-img {
