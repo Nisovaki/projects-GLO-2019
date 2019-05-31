@@ -1,5 +1,8 @@
+*
+    box-sizing: border-box
 body
     +light
+    color: $text-color
 img
     max-width: 100%
 .container
@@ -29,7 +32,6 @@ img
     background-color: $main-color
     border: none
     padding: 18px 29px 17px 29px
-    font-weight: bold
     outline: none
     cursor: pointer
     font-size: 13px
@@ -38,3 +40,8 @@ img
         background-color: $hover-color
     &:active
         background-color: $active-color
+.input
+    border: 1px solid $border-color
+    padding: 23px 25px
+    border-radius: 10px
+    font-size: 15px

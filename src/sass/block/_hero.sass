@@ -3,15 +3,16 @@
 	background-color: $fon-color
 	&-block
 		display: flex
+		justify-content: space-between
 	&-text
-		flex-basis: 40% 
-		padding-right: 135px
+		flex-basis: 50% 
+		/* padding-right: 145px */
 		&__title
 			font-size: 40px
 			+bold
 			line-height: 55px
 			margin-bottom: 39px
-			letter-spacing: 0.4px
+			letter-spacing: 0.5px
 		&__subtitle
 			display: inline-block
 			font-size: 19px
@@ -21,15 +22,20 @@
 	&-list
 		margin: 0px
 		padding: 0px
-		&__item
+		&__item1
 			display: flex
 			align-items: center
-			margin-bottom: 25px
-			&_top
-				margin-bottom: 24px
+			margin-bottom: 26px
+		&__item2
+			display: flex
+			align-items: center
+			margin-bottom: 22px
+		&__item3
+			display: flex
+			align-items: center
 		&__img
-			width: 36px
-			height: 36px
+			width: 40px
+			height: 40px
 			border: 2px solid $main-color
 			display: flex
 			align-items: center
@@ -47,14 +53,14 @@
 @media (max-width: 1200px)
 	.hero
 		&-text
-			flex-basis: 50% 
-			padding-right: 60px
+			flex-basis: 60% 
+			/* padding-right: 60px */
 			&__title
 				font-size: 25px
 				margin-bottom: 20px
 				line-height: 43px
 			&__subtitle
-				font-size: 16px
+				font-size: 13px
 				margin-bottom: 35px
 		&-list
 			&__item
