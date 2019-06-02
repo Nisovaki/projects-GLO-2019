@@ -1025,5 +1025,9 @@ img {
   position: absolute;
   top: 0;
   right: 0;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
 }
 /*# sourceMappingURL=style.css.map */
