@@ -160,23 +160,25 @@ img {
     display: none;
   }
   .navbar__logo {
-    width: 34%;
-    margin: 10px;
+    width: 40%;
+  }
+  .navbar .logo1 {
+    width: 80%;
   }
   .navbar__button {
     margin-bottom: 0px;
   }
 }
 
-/*             padding: 15px 26px
-            font-size: 10px */
 @media (max-width: 375px) {
   .navbar__contacts {
     display: none;
   }
   .navbar__logo {
-    width: 30%;
-    margin: 15px 12px 9px 11px;
+    width: 39%;
+  }
+  .navbar .logo1 {
+    width: 75%;
   }
   .navbar__button {
     padding: 15px 26px 13px 26px;
@@ -188,8 +190,10 @@ img {
 
 @media (max-width: 320px) {
   .navbar__logo {
-    width: 30%;
-    margin: 15px 12px 9px 11px;
+    width: 37%;
+  }
+  .navbar .logo1 {
+    width: 85%;
   }
   .navbar__button {
     padding: 15px 26px 13px 26px;
