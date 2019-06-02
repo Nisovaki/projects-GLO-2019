@@ -1030,4 +1030,12 @@ img {
   cursor: pointer;
   outline: none;
 }
+
+.modal-dialog__close:hover {
+  background-color: #EFA94A;
+}
+
+.modal-dialog__close:active {
+  background-color: #ED760E;
+}
 /*# sourceMappingURL=style.css.map */
