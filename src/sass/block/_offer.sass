@@ -32,12 +32,16 @@
     &__input1
         margin-bottom: 30px
         width: 240px
+        &:focus
+            outline: none
         &:first-child
             margin-right: 10px
     &__input2
         margin-bottom: 30px
         width: 240px
         padding: 23px 25px 23px 31px
+        &:focus
+            outline: none
     &__button
         width: 100%
         min-height: 70px
@@ -134,12 +138,84 @@
             margin: 0px
 @media (max-width: 375px)
     .offer
+        padding-top:  32px
         &-block
+            &__title
+                max-width: 281px
+                font-size: 18px
+                margin-bottom: 17px
+                line-height: 22px
+            &__subtitle
+                max-width: 280px
+                font-size: 14px
+                margin-bottom: 25px
+        &__form
+            margin-bottom: 20px 
+        &__input1
+            width: 91%
+            margin-bottom: 8px
+            padding: 24px 32px 22px 20px
+            &:first-child
+                margin-right: 0px
+        &__input2
+            width: 91%
+            margin-bottom: 11px
+            padding: 24px 32px 22px 20px
         &__button
-            width: 84%
+            width: 90%
+            font-size: 15px
+            padding: 15px 56px 17px 55px
+            letter-spacing: -0.5px
+            margin: 0px
+        &-text
+            &__cont1
+                line-height: 23px
+                max-width: 236px
+                font-size: 15px
+                margin-right: 30px
+                margin-bottom: 0px
+            &__cont2
+                max-width: 270px
+                margin-top: 10px
 @media (max-width: 320px)
     .offer
+        padding-top:  32px
         &-block
+            &__title
+                max-width: 281px
+                font-size: 18px
+                margin-bottom: 17px
+                line-height: 22px
+            &__subtitle
+                max-width: 280px
+                font-size: 14px
+                margin-bottom: 25px
+        &__form
+            margin-bottom: 20px 
+        &__input1
+            width: 91%
+            margin-bottom: 8px
+            padding: 24px 32px 22px 20px
+            &:first-child
+                margin-right: 0px
+        &__input2
+            width: 91%
+            margin-bottom: 11px
+            padding: 24px 32px 22px 20px
         &__button
-            width: 98%
+            width: 90%
+            font-size: 15px
+            padding: 15px 56px 17px 55px
+            letter-spacing: -0.5px
+            margin: 0px
+        &-text
+            &__cont1
+                line-height: 23px
+                max-width: 236px
+                font-size: 15px
+                margin-right: 30px
+                margin-bottom: 0px
+            &__cont2
+                max-width: 270px
+                margin-top: 10px
 
