@@ -1,0 +1,56 @@
+*
+    box-sizing: border-box
+body
+    +light
+    color: $text-color
+img
+    max-width: 100%
+.container
+    width: 1170px
+    margin: auto
+@media (max-width: 1200px)
+    .container
+        width: 760px
+@media (max-width: 768px)
+    .container
+        width: 550px
+        width: 95%
+@media (max-width: 425px)
+    .container
+        width: 420px
+        width: 90%
+@media (max-width: 375px)
+    .container
+        width: 340px
+        width: 95%
+@media (max-width: 320px)
+    .container
+        width: 300px
+        width: 95%
+.button
+    border-radius: 10px
+    background-color: $main-color
+    border: none
+    padding: 18px 29px 17px 29px
+    outline: none
+    cursor: pointer
+    font-size: 13px
+    +bold
+    &:hover
+        background-color: $hover-color
+    &:active
+        background-color: $active-color
+.input
+    border: 1px solid $border-color
+    padding: 23px 25px
+    border-radius: 10px
+    font-size: 15px
+.section
+    padding: 90px 0px
+    &-title
+        font-size: 24px
+        +bold
+        text-align: center
+    &-subtitle
+        display: block
+        font-size: 16px
