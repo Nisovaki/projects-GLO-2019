@@ -255,7 +255,7 @@ img {
   font-weight: 700;
   line-height: 55px;
   margin-bottom: 39px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
 }
 
 .hero-text__subtitle {
@@ -264,7 +264,7 @@ img {
   font-family: "Museo Sans Bold", sans-serif;
   font-weight: 700;
   margin-bottom: 70px;
-  letter-spacing: 0.9px;
+  letter-spacing: 0.6px;
 }
 
 .hero-list {
@@ -740,8 +740,8 @@ img {
   font-family: "Museo Sans Bold", sans-serif;
   font-weight: 700;
   font-size: 24px;
-  margin-bottom: 23px;
-  margin-top: 8px;
+  margin-bottom: 20px;
+  margin-top: 4px;
 }
 
 .offer-block__subtitle {
@@ -1029,8 +1029,10 @@ img {
 .portfolio__title {
   max-width: 786px;
   margin: auto;
-  margin-bottom: 99px;
-  max-width: 700px;
+  margin-bottom: 93px;
+  max-width: 800px;
+  font-size: 30px;
+  line-height: 45px;
 }
 
 .portfolio__arrows {
@@ -1045,8 +1047,16 @@ img {
           justify-content: space-between;
 }
 
+.slider-slider {
+  margin: auto;
+}
+
 .slider__item {
   outline: none;
+}
+
+.slider__img {
+  margin: auto;
 }
 
 .price__title {
