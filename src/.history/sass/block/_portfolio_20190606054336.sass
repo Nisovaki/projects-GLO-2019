@@ -1,0 +1,53 @@
+.portfolio
+    background: $fon-color url('../../img/slider/fon-1.jpg') repeat-y center left
+    background-size: 50%
+    &__title
+        margin: auto
+        margin-bottom: 93px
+        max-width: 800px
+        font-size: 30px
+        line-height: 45px
+    &__arrows
+        max-width: 120px
+        margin: auto
+        margin-top: 68px
+        display: flex
+        justify-content: space-between
+.slider
+    margin: 0 -15px
+    &-slider
+        margin: auto
+    &__item
+        outline: none
+    &__img
+        margin: auto
+@media (max-width: 1200px)
+    .portfolio
+        &__title
+            margin-bottom: 63px
+            font-size: 24px
+            line-height: 40px
+@media (max-width: 768px)
+    .portfolio
+        padding-top: 60px
+        background: $fon-color
+        &__title
+            max-width: 285px
+            margin-bottom: 53px
+            font-size: 18px
+            line-height: 35px 
+@media (max-width: 425px)
+    .portfolio
+        padding-top: 39px
+        &__title
+            line-height: 22px
+            margin-bottom: 41px
+        &__arrows
+            margin-top: 47px
+    .slide
+        margin: -15px
+    .slick-slide img
+        width: 73% 
+@media (max-width: 375px)
+    .portfolio
+        padding-top: 39px
