@@ -1791,10 +1791,4 @@ img {
           align-items: flex-start;
   margin-bottom: 39px;
 }
-
-@media (max-width: 2000px) {
-  .footer {
-    display: none;
-  }
-}
 /*# sourceMappingURL=style.css.map */
