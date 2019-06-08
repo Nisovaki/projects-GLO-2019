@@ -246,7 +246,6 @@ img {
 .hero-text {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  /* padding-right: 145px */
 }
 
 .hero-text__title {
@@ -254,7 +253,7 @@ img {
   font-family: "Museo Sans Bold", sans-serif;
   font-weight: 700;
   line-height: 55px;
-  margin-bottom: 39px;
+  margin-bottom: 38px;
   letter-spacing: 0.4px;
 }
 
@@ -264,6 +263,7 @@ img {
   font-family: "Museo Sans Bold", sans-serif;
   font-weight: 700;
   margin-bottom: 70px;
+  margin-left: 1px;
   letter-spacing: 0.5px;
 }
 
@@ -1114,6 +1114,7 @@ img {
 @media (max-width: 425px) {
   .portfolio {
     padding-top: 39px;
+    padding-bottom: 58px;
   }
   .portfolio__title {
     line-height: 22px;
@@ -1123,7 +1124,7 @@ img {
     margin-top: 47px;
   }
   .slick-slide img {
-    width: 73%;
+    width: 80%;
   }
 }
 
@@ -1287,7 +1288,7 @@ img {
   }
   .price__card {
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
     width: 350px;
   }
   .card__title {
@@ -1302,35 +1303,37 @@ img {
   .price__title {
     font-size: 20px;
     line-height: 22px;
-    margin-bottom: 25px;
-    max-width: 245px;
+    margin-bottom: 23px;
+    max-width: 243px;
     margin-top: -10px;
   }
   .price__subtitle {
     font-size: 14px;
-    margin-bottom: 62px;
-    margin-right: 17px;
+    margin-bottom: 61px;
+    margin-right: 14px;
   }
   .price__card {
     width: 275px;
   }
   .card {
-    width: 278px;
+    width: 270px;
   }
   .card__title {
     margin-right: 5px;
-    margin-top: -3px;
+    margin-top: -1px;
     margin-bottom: 8px;
-    font-size: 14px;
     margin-left: 4px;
     font-size: 14px;
+    width: 200px;
   }
   .card__text {
     padding: 31px;
   }
   .card__link {
     margin-top: 5px;
-    margin-right: 5px;
+    margin-right: 8px;
+    font-size: 16px;
+    letter-spacing: -0.1px;
   }
 }
 
@@ -1460,6 +1463,387 @@ img {
   }
 }
 
+.appeal {
+  background-color: #ffd200;
+  padding-top: 95px;
+  padding-bottom: 100px;
+}
+
+.appeal-block {
+  text-align: center;
+}
+
+.appeal__title1 {
+  display: inline-block;
+  font-size: 33px;
+  letter-spacing: -0.5px;
+  margin-left: -9px;
+  margin-bottom: 13px;
+}
+
+.appeal__title2 {
+  display: inline-block;
+  font-size: 33px;
+  letter-spacing: -0.5px;
+}
+
+.opportunity {
+  padding-top: 98px;
+}
+
+.opportunity-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.opportunity__item {
+  background-color: #f7f7f7;
+  max-width: 370px;
+  max-height: 400px;
+}
+
+.opportunity__text1 {
+  width: 266px;
+  margin-top: 23px;
+  line-height: 23px;
+  margin-left: 26px;
+}
+
+.opportunity__img1 {
+  margin-top: 50px;
+}
+
+.opportunity__text2 {
+  width: 290px;
+  margin-top: 22px;
+  line-height: 23px;
+  margin-left: 26px;
+}
+
+.opportunity__img2 {
+  margin-top: 33px;
+}
+
+.opportunity__text3 {
+  width: 284px;
+  margin-top: 23px;
+  line-height: 23px;
+  margin-left: 26px;
+}
+
+.opportunity__img3 {
+  margin-top: 49px;
+}
+
+.opportunity__bold {
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
+}
+
+@inport 'block/_agreement.sass' {}.brif {
+  background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+  background-position: left center, center right;
+  background-size: 50%, contain;
+  background-repeat: repeat-y, no-repeat;
+  padding-bottom: 75px;
+}
+
+.brif-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.brif__interview {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.brif__form {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-left: 200px;
+  text-align: center;
+}
+
+.brif__input1 {
+  width: 100%;
+  max-width: 369px;
+  margin-bottom: 15px;
+  padding: 23px 24px;
+  margin-left: 14px;
+}
+
+.brif__input2 {
+  width: 100%;
+  max-width: 369px;
+  margin-bottom: 14px;
+  padding: 23px 24px;
+  margin-left: 12px;
+}
+
+.brif__button {
+  height: 71px;
+  width: 100%;
+  max-width: 367px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 14px;
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px 10px 10px 10px;
+}
+
+.interview {
+  padding-right: 69px;
+}
+
+.interview__title {
+  margin-bottom: 44px;
+  font-size: 21px;
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
+  line-height: 33px;
+  margin-top: 9px;
+  letter-spacing: 0.5px;
+}
+
+.interview__subtitle {
+  margin-bottom: 94px;
+  display: block;
+  font-size: 16px;
+}
+
+.interview-list {
+  list-style: none;
+  padding: 0;
+}
+
+.interview-list__item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 26px;
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.interview-list__item2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 31px;
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.interview-list__item3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 34px;
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.interview-list__item4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.interview-list__conter1 {
+  display: inline-block;
+  margin-right: 32px;
+  margin-left: 1px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 14px;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #333333;
+  border-radius: 50%;
+}
+
+.interview-list__conter2 {
+  display: inline-block;
+  margin-right: 32px;
+  margin-left: 1px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 14px;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #333333;
+  border-radius: 50%;
+}
+
+.interview-list__conter3 {
+  display: inline-block;
+  margin-right: 32px;
+  margin-left: 1px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 14px;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #333333;
+  border-radius: 50%;
+}
+
+.interview-list__conter4 {
+  display: inline-block;
+  margin-right: 32px;
+  margin-left: 1px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 14px;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #333333;
+  border-radius: 50%;
+}
+
+.interview-list__text1 {
+  max-width: 400px;
+  letter-spacing: -0.2px;
+}
+
+.interview-list__text2 {
+  max-width: 400px;
+  letter-spacing: -0.2px;
+}
+
+.interview-list__text3 {
+  max-width: 400px;
+  letter-spacing: -0.2px;
+  line-height: 22px;
+}
+
+.interview-list__text4 {
+  max-width: 400px;
+  letter-spacing: -0.2px;
+}
+
+.form form input {
+  outline: none;
+}
+
+.form__title {
+  margin-bottom: 46px;
+  margin-left: 19px;
+  margin-top: 6px;
+  font-size: 23px;
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: -0.5px;
+}
+
+.form__subtitle {
+  margin-bottom: 50px;
+  display: block;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  margin-left: 14px;
+}
+
+.form__description {
+  font-size: 15px;
+  margin-left: 11px;
+}
+
+@media (max-width: 1200px) {
+  .brif {
+    display: none;
+  }
+}
+
+.footer {
+  position: relative;
+}
+
+.map {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+}
+
+.contacts {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.contacts__title {
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.4;
+  margin-bottom: 100px;
+}
+
+.contacts-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.contact-list {
+  padding: 0px;
+  list-style: none;
+}
+
+.contact-list__icon {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 23px;
+}
+
+.contact-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 39px;
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    display: none;
+  }
+}
+
 .modal {
   position: fixed;
   left: 0;
@@ -1503,191 +1887,4 @@ img {
 .modal-dialog__close:active {
   background-color: #ED760E;
 }
-
-/* .brif
-    background-image: url('../img/brif/brif-color-bg.jpg'), url('../img/brif/brif-bg.jpg')
-    background-position: left center, center right
-    background-size: 50%, contain
-    background-repeat: repeat-y, no-repeat
-    padding-bottom: 75px
-    &-block
-        display: flex
-    &__interview
-        flex-basis: 50%
-    &__form
-        flex-basis: 50%
-        padding-left: 200px
-        text-align: center
-    &__input1
-        width: 100%
-        max-width: 369px
-        margin-bottom: 15px
-        padding: 23px 24px
-        margin-left: 14px
-    &__input2
-        width: 100%
-        max-width: 369px
-        margin-bottom: 14px
-        padding: 23px 24px
-        margin-left: 12px
-    &__button
-        height: 71px
-        width: 100%
-        max-width: 367px
-        margin-top: 15px
-        margin-bottom: 30px
-        margin-left: 14px
-        @include bold
-        font-size: 16px
-        padding: 12px 10px 10px 10px */
-/* .interview
-    padding-right: 69px
-    &__title
-        margin-bottom: 44px
-        font-size: 21px
-        @include bold
-        line-height: 33px
-        margin-top: 9px
-        letter-spacing: 0.5px
-    &__subtitle
-        margin-bottom: 94px
-        display: block
-        font-size: 16px
-    &-list
-        list-style: none
-        padding: 0
-        &__item1
-            display: flex
-            align-items: center
-            margin-bottom: 26px
-            @include bold
-            font-size: 18px
-        &__item2
-            display: flex
-            align-items: center
-            margin-bottom: 31px
-            @include bold
-            font-size: 18px
-        &__item3
-            display: flex
-            margin-bottom: 34px
-            @include bold
-            font-size: 18px
-        &__item4
-            display: flex
-            align-items: center
-            margin-bottom: 25px
-            @include bold
-            font-size: 18px
-        &__conter1
-            display: inline-block
-            margin-right: 32px
-            margin-left: 1px
-            text-align: center
-            line-height: 34px
-            font-size: 14px
-            width: 35px
-            height: 35px
-            border: 2px solid $text-color
-            border-radius: 50%
-        &__conter2
-            display: inline-block
-            margin-right: 32px
-            margin-left: 1px
-            text-align: center
-            line-height: 34px
-            font-size: 14px
-            width: 35px
-            height: 35px
-            border: 2px solid $text-color
-            border-radius: 50%
-        &__conter3
-            display: inline-block
-            margin-right: 32px
-            margin-left: 1px
-            text-align: center
-            line-height: 34px
-            font-size: 14px
-            width: 35px
-            height: 35px
-            border: 2px solid $text-color
-            border-radius: 50%
-        &__conter4
-            display: inline-block
-            margin-right: 32px
-            margin-left: 1px
-            text-align: center
-            line-height: 34px
-            font-size: 14px
-            width: 35px
-            height: 35px
-            border: 2px solid $text-color
-            border-radius: 50%
-        &__text1
-            max-width: 400px
-            letter-spacing: -0.2px
-        &__text2
-            max-width: 400px
-            letter-spacing: -0.2px
-        &__text3
-            max-width: 400px
-            letter-spacing: -0.2px
-            line-height: 22px
-        &__text4
-            max-width: 400px
-            letter-spacing: -0.2px*/
-/* .form
-    & form input
-        outline: none
-    &__title
-        margin-bottom: 46px
-        margin-left: 19px
-        margin-top: 6px
-        font-size: 23px
-        @include bold
-        line-height: 33px
-        letter-spacing: -0.5px
-    &__subtitle
-        margin-bottom: 50px
-        display: block
-        font-size: 15px
-        letter-spacing: 0.5px
-        margin-left: 14px
-    &__description
-        font-size: 15px
-        margin-left: 11px  */
-/* .footer
-    position: relative */
-/* .map
-    position: absolute
-    left: 0
-    top: 0
-    width: 50% */
-/* .contacts
-    flex-basis: 50%
-    padding-top: 100px
-    padding-left: 200px
-    &__title
-        @include bold
-        font-size: 22px
-        line-height: 1.4
-        margin-bottom: 100px
-    &-block
-        display: flex
-        justify-content: flex-end */
-/* .contact
-    &-list
-        padding: 0px
-        list-style: none
-        &__icon
-            width: 20px
-            height: 20px
-            text-align: center
-            line-height: 20px
-            margin-right: 23px
-        &__item
-            display: flex
-            align-items: flex-start
-            margin-bottom: 39px
- */
 /*# sourceMappingURL=style.css.map */
