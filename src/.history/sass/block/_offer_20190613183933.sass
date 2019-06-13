@@ -1,6 +1,6 @@
 .offer
-    padding: 87px 0
-    background: url('../img/offer/offer-bg.jpg')
+    padding: 60px 0
+    background-image: url('../img/offer/offer-bg.jpg')
     background-repeat: no-repeat
     background-size: contain
     background-position: center right
@@ -22,21 +22,16 @@
             line-height: 35px
             +bold
             font-size: 24px
-            margin-bottom: 20px
-            margin-top: -10px
+            margin-bottom: 19px
         &__subtitle
             display: block
             max-width: 250px
-            font-size: 15px
-            margin-bottom: 30px
-            line-height: 19px
-            letter-spacing: 0.5px
-    &__form
-        position: relative
+            font-size: 16px
+            margin-bottom: 32px
+            line-height: 18px
     &__input1
         margin-bottom: 30px
         width: 240px
-        margin-left: 0px
         &:focus
             outline: none
         &:first-child
@@ -45,19 +40,38 @@
         margin-bottom: 30px
         width: 240px
         padding: 23px 25px 23px 31px
-        margin-left: 0px
         &:focus
             outline: none
-    #offerusername-error
-        display: block
-        position: absolute
-        top: 70px
-        left: 30px
-    #offerphone-error
-        display: block
-        position: absolute
-        top: 70px
-        right: 50px
+#offerusername-error
+    position: absolute
+    top: 70px
+    left: 30px
+#offerphone-error
+    position: absolute
+    top: 70px
+    right: 80px
+    &__button
+        width: 100%
+        min-height: 70px
+        margin-bottom: 25px
+        font-size: 16px
+        padding: 14px 29px 17px 29px
+    &-text
+        &__cont1
+            display: inline-block
+            max-width: 225px
+            line-height: 24px
+            margin-right: 66px
+            font-size: 15px
+        &__cont2
+            display: inline-block
+            max-width: 192px
+            line-height: 24px
+            font-size: 15px
+    &__phone
+        +bold
+        text-decoration: none
+        color: $text-color
     &__button
         width: 100%
         min-height: 70px
@@ -103,12 +117,6 @@
                 margin-right: 50px
         &__input2
             width: 354px
-    #offerusername-error
-        display: in
-        position: inherit
-    #offerphone-error
-        display: in
-        position: inherit
         &-text
             &__cont1
                 margin: 0px
