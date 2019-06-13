@@ -1859,6 +1859,7 @@ img {
   }
   .steps {
     padding-top: 76px;
+    padding-bottom: 75px;
   }
   .steps__title {
     line-height: 21px;
@@ -1930,6 +1931,7 @@ img {
   }
   .steps {
     padding-top: 76px;
+    padding-bottom: 75px;
   }
   .steps__title {
     line-height: 21px;
@@ -2001,6 +2003,7 @@ img {
   }
   .steps {
     padding-top: 76px;
+    padding-bottom: 75px;
   }
   .steps__title {
     line-height: 21px;
@@ -2040,7 +2043,120 @@ img {
 
 @media (max-width: 1200px) {
   .appeal {
-    display: none;
+    padding-top: 68px;
+    padding-bottom: 76px;
+  }
+  .appeal-block {
+    text-align: center;
+  }
+  .appeal__title1 {
+    display: inline-block;
+    font-size: 21px;
+    letter-spacing: -0.5px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    max-width: 390px;
+  }
+  .appeal__title2 {
+    display: inline-block;
+    font-size: 21px;
+    letter-spacing: -0.5px;
+    max-width: 571px;
+  }
+}
+
+@media (max-width: 768px) {
+  .appeal {
+    padding-top: 68px;
+    padding-bottom: 76px;
+  }
+  .appeal-block {
+    text-align: center;
+  }
+  .appeal__title1 {
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    max-width: 330px;
+  }
+  .appeal__title2 {
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    max-width: 490px;
+  }
+}
+
+@media (max-width: 425px) {
+  .appeal {
+    padding-top: 68px;
+    padding-bottom: 76px;
+  }
+  .appeal-block {
+    text-align: center;
+  }
+  .appeal__title1 {
+    display: inline-block;
+    font-size: 19px;
+    letter-spacing: -0.5px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    max-width: 210px;
+  }
+  .appeal__title2 {
+    display: inline-block;
+    font-size: 19px;
+    letter-spacing: -0.5px;
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 375px) {
+  .appeal {
+    padding-top: 68px;
+    padding-bottom: 76px;
+  }
+  .appeal-block {
+    text-align: center;
+  }
+  .appeal__title1 {
+    display: inline-block;
+    font-size: 19px;
+    letter-spacing: -0.5px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    max-width: 210px;
+  }
+  .appeal__title2 {
+    display: inline-block;
+    font-size: 19px;
+    letter-spacing: -0.5px;
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 320px) {
+  .appeal {
+    padding-top: 68px;
+    padding-bottom: 76px;
+  }
+  .appeal-block {
+    text-align: center;
+  }
+  .appeal__title1 {
+    display: inline-block;
+    font-size: 19px;
+    letter-spacing: -0.5px;
+    margin-left: 0px;
+    margin-bottom: 2px;
+    max-width: 210px;
+  }
+  .appeal__title2 {
+    display: inline-block;
+    font-size: 19px;
+    letter-spacing: -0.5px;
   }
 }
 
